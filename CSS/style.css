@@ -1,0 +1,250 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root{
+
+    --container-width-lg: 88%;
+    
+    --transition: all 0.3s ease-in-out;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.containar{
+   
+    padding-left: 5px;
+    padding-right: 5px;
+}
+nav{
+    width: 100vw;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 99;
+    background-color: black;
+}
+.nav-container{
+    display: flex;
+    
+}
+.nav-logo{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.nav-logo h2{
+    
+    color: dodgerblue;
+    text-transform: uppercase; 
+}
+.nav-logo p{
+text-transform:uppercase;
+letter-spacing: 2px;
+padding: 1rem;
+font-weight: 200;
+font-size: 1rem;
+}
+.nav-support{
+    display: flex;
+    gap: 4rem;
+    padding: 1rem;
+    margin-left: 20rem;
+    margin-bottom:1rem;
+    text-transform: uppercase;
+
+}
+.nav-support a{
+    color: rgb(218, 218, 229);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+.nav-support a:hover{
+    color: cornflowerblue;
+}
+/*======================nav end=========*/
+.extra{
+    height: 30px;;
+    background-color: brown;
+    text-align: center;
+    color: rgb(27, 28, 25);
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    font-family: "Poppins", sans-serif;
+}
+ 
+ .head-content{
+    margin-top: 20%;
+    color:brown;
+    margin-bottom:15rem;
+    position: absolute;
+    margin-left:100px;
+ }
+ .head-content p:nth-child(1){
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+ }
+ .head-content h3:nth-child(2){
+    text-transform: uppercase;
+
+ }
+ .head-content p:nth-child(3){
+    text-transform: uppercase;
+ }
+ .head-content p:nth-child(4){
+    text-align: justify;
+ }
+
+
+
+.btn{
+    margin-top:0.5rem;
+    width: 100px;
+    background-color: rgb(252, 253, 255);
+    display: inline-block;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem 0.2rem;
+    border: 0.2rem solid red;
+    transition: var(--transition);
+    box-shadow: 0 0.2rem 0.2rem rgb(247, 173, 173);
+
+}
+.btn:hover{
+    color: darkred;
+    background-color: #000;
+    box-shadow: none;
+}
+
+.box{
+    width: 500px;
+    height: 100px;
+    padding: 0.5rem;
+    display: flex;
+    gap:4rem;
+    background-color: rgb(144, 10, 10);
+    border-radius: 5px;
+    margin: auto;
+}
+.box li{
+    margin-top: 2rem;
+    color: rgb(245, 243, 240);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:  "Poppins", sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.box2{
+    margin: 25px;
+    margin-left: 35px;
+}
+.box2 h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    top:2rem;
+}
+
+.box2 table{
+    background-color: aliceblue;
+    width: 95%;
+    box-shadow: 0 0.2rem 0.2rem rgb(191, 178, 178);
+    margin-top: 5rem;
+    padding: 0.2 rem;
+    margin-right: 30rem;
+    
+    
+}
+ .box2 table tbody td {
+    height: 2rem;
+    text-align: center;
+}
+.box2 table thead th{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.box2 table thead th{
+    
+}
+.items h1{
+    font-family:"Poppins", sans-serif; 
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.item-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    place-items: center;
+    width: 100vw;   
+     height: 100vh;
+
+}
+.about-start{
+    display: flex;
+    gap:1rem;
+}
+.right p{
+   
+    text-transform: uppercase;
+    color: firebrick;
+    text-align: center;
+}
+.btn-1{
+    width: 50px;
+    padding: 5px 5px;
+    background-color: black;
+    color: azure;
+    transition: var(--transition);
+    left:2rem;
+
+}
+.btn-1:hover{
+    background-color: darkred;
+    color: black;
+
+}
+.contact-start{
+    display: flex;
+}
+.con-left p{
+    text-transform: uppercase;
+    color: firebrick;
+    text-align:justify;
+    top:30rem;
+    
+}
+.btn-2{
+    width: 50px;
+    padding: 5px 5px;
+    background-color: black;
+    color: azure;
+    transition: var(--transition);
+    left:2rem;
+    top:20rem;
+
+}
+.btn-2:hover{
+    background-color: darkred;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
